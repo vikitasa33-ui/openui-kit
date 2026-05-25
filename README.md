@@ -137,6 +137,10 @@ MIT © 2024 — Free to use in personal and commercial projects.
 
 ---
 
+## 🌐 Browser Testing
+
+This project is tested with BrowserStack.
+
 ## 💙 Acknowledgements
 
 Thanks to the open source community and [BrowserStack](https://www.browserstack.com) for supporting open source projects with free cross-browser testing.
