@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenUI Kit — Open Source Component Library</title>
+  <link rel="stylesheet" href="css/openui.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-brand">OpenUI<span>Kit</span></div>
+    <div class="nav-links">
+      <a href="#components">Components</a>
+      <a href="#buttons">Buttons</a>
+      <a href="#cards">Cards</a>
+      <a href="#forms">Forms</a>
+      <a href="https://github.com" target="_blank" class="nav-github">★ GitHub</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-label">Open Source · MIT License · v1.0.0</div>
+    <h1>Beautiful UI components.<br><em>Zero dependencies.</em></h1>
+    <p class="hero-sub">A lightweight, accessible component library built with pure HTML, CSS, and JavaScript. Copy, paste, and ship — no build tools required.</p>
+    <div class="hero-actions">
+      <a href="#components" class="btn btn-primary btn-lg">Explore Components</a>
+      <a href="https://github.com" class="btn btn-outline btn-lg">View on GitHub</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span>20+</span> Components</div>
+      <div class="stat"><span>0</span> Dependencies</div>
+      <div class="stat"><span>MIT</span> License</div>
+      <div class="stat"><span>100%</span> Free</div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="components" class="container">
+
+    <!-- BUTTONS -->
+    <section class="section" id="buttons">
+      <div class="section-header">
+        <div class="section-tag">01</div>
+        <h2>Buttons</h2>
+        <p>Every variant you'll ever need.</p>
+      </div>
+      <div class="demo-grid">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-outline">Outline</button>
+        <button class="btn btn-ghost">Ghost</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-primary btn-sm">Small</button>
+        <button class="btn btn-primary btn-lg">Large</button>
+        <button class="btn btn-primary" disabled>Disabled</button>
+        <button class="btn btn-primary btn-loading">Loading...</button>
+        <button class="btn btn-icon">✦</button>
+        <button class="btn btn-pill btn-primary">Pill Button</button>
+      </div>
+    </section>
+
+    <!-- BADGES -->
+    <section class="section" id="badges">
+      <div class="section-header">
+        <div class="section-tag">02</div>
+        <h2>Badges</h2>
+        <p>Labels, tags, and status indicators.</p>
+      </div>
+      <div class="demo-grid">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-outline">Outline</span>
+        <span class="badge badge-dot badge-success">● Active</span>
+        <span class="badge badge-dot badge-danger">● Offline</span>
+        <span class="badge badge-count">99+</span>
+      </div>
+    </section>
+
+    <!-- CARDS -->
+    <section class="section" id="cards">
+      <div class="section-header">
+        <div class="section-tag">03</div>
+        <h2>Cards</h2>
+        <p>Flexible containers for any content.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Fast & Lightweight</h3>
+          <p>No frameworks, no build steps. Just copy and paste into your project.</p>
+          <a href="#" class="btn btn-outline btn-sm">Learn More</a>
+        </div>
+        <div class="card card-highlight">
+          <div class="card-badge">Popular</div>
+          <div class="card-icon">⚡</div>
+          <h3>Zero Dependencies</h3>
+          <p>Pure HTML, CSS, and vanilla JS. Works everywhere, no npm required.</p>
+          <a href="#" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">♿</div>
+          <h3>Accessible</h3>
+          <p>Built with ARIA attributes and keyboard navigation support out of the box.</p>
+          <a href="#" class="btn btn-outline btn-sm">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALERTS -->
+    <section class="section" id="alerts">
+      <div class="section-header">
+        <div class="section-tag">04</div>
+        <h2>Alerts</h2>
+        <p>Communicate feedback and status clearly.</p>
+      </div>
+      <div class="alerts-stack">
+        <div class="alert alert-info">ℹ️ <strong>Info:</strong> This is an informational alert. Something you should know.</div>
+        <div class="alert alert-success">✅ <strong>Success:</strong> Your changes have been saved successfully.</div>
+        <div class="alert alert-warning">⚠️ <strong>Warning:</strong> Please review before continuing. This action is irreversible.</div>
+        <div class="alert alert-danger">❌ <strong>Error:</strong> Something went wrong. Please try again later.</div>
+      </div>
+    </section>
+
+    <!-- FORMS -->
+    <section class="section" id="forms">
+      <div class="section-header">
+        <div class="section-tag">05</div>
+        <h2>Form Elements</h2>
+        <p>Clean, accessible inputs for every use case.</p>
+      </div>
+      <div class="form-demo">
+        <div class="form-group">
+          <label class="label">Full Name</label>
+          <input type="text" class="input" placeholder="John Doe" />
+        </div>
+        <div class="form-group">
+          <label class="label">Email</label>
+          <input type="email" class="input input-success" placeholder="john@example.com" />
+          <span class="input-hint input-hint-success">✓ Valid email address</span>
+        </div>
+        <div class="form-group">
+          <label class="label">Password</label>
+          <input type="password" class="input input-error" placeholder="••••••••" />
+          <span class="input-hint input-hint-error">Password must be at least 8 characters</span>
+        </div>
+        <div class="form-group">
+          <label class="label">Message</label>
+          <textarea class="input textarea" placeholder="Write your message here..."></textarea>
+        </div>
+        <div class="form-group">
+          <label class="label">Country</label>
+          <select class="input select">
+            <option>Bangladesh</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>India</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label class="checkbox-label">
+            <input type="checkbox" class="checkbox" checked />
+            <span>I agree to the terms of service</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="radio" name="plan" class="radio" checked />
+            <span>Free Plan</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="radio" name="plan" class="radio" />
+            <span>Pro Plan</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <label class="label">Toggle</label>
+          <label class="toggle">
+            <input type="checkbox" checked />
+            <span class="toggle-slider"></span>
+            <span>Enable notifications</span>
+          </label>
+        </div>
+        <button class="btn btn-primary">Submit Form</button>
+      </div>
+    </section>
+
+    <!-- PROGRESS -->
+    <section class="section" id="progress">
+      <div class="section-header">
+        <div class="section-tag">06</div>
+        <h2>Progress & Loaders</h2>
+        <p>Visual feedback for loading states.</p>
+      </div>
+      <div class="progress-demos">
+        <div>
+          <div class="progress-label"><span>Design</span><span>80%</span></div>
+          <div class="progress"><div class="progress-bar" style="width:80%"></div></div>
+        </div>
+        <div>
+          <div class="progress-label"><span>Development</span><span>55%</span></div>
+          <div class="progress"><div class="progress-bar progress-success" style="width:55%"></div></div>
+        </div>
+        <div>
+          <div class="progress-label"><span>Testing</span><span>25%</span></div>
+          <div class="progress"><div class="progress-bar progress-warning" style="width:25%"></div></div>
+        </div>
+        <div class="loaders-row">
+          <div class="spinner"></div>
+          <div class="spinner spinner-sm"></div>
+          <div class="spinner spinner-success"></div>
+          <div class="dots-loader"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLTIP -->
+    <section class="section" id="tooltips">
+      <div class="section-header">
+        <div class="section-tag">07</div>
+        <h2>Tooltips</h2>
+        <p>Hover for contextual information.</p>
+      </div>
+      <div class="demo-grid">
+        <span class="tooltip-wrap" data-tip="This is a top tooltip">
+          <button class="btn btn-outline">Hover me ↑</button>
+        </span>
+        <span class="tooltip-wrap tooltip-bottom" data-tip="Bottom tooltip here">
+          <button class="btn btn-outline">Hover me ↓</button>
+        </span>
+        <span class="tooltip-wrap tooltip-dark" data-tip="Dark styled tooltip">
+          <button class="btn btn-outline">Dark tooltip</button>
+        </span>
+      </div>
+    </section>
+
+    <!-- AVATAR -->
+    <section class="section" id="avatars">
+      <div class="section-header">
+        <div class="section-tag">08</div>
+        <h2>Avatars</h2>
+        <p>User profile pictures and initials.</p>
+      </div>
+      <div class="demo-grid" style="align-items:center">
+        <div class="avatar avatar-xl">AK</div>
+        <div class="avatar avatar-lg avatar-green">MR</div>
+        <div class="avatar avatar-md avatar-purple">NJ</div>
+        <div class="avatar avatar-sm avatar-orange">SL</div>
+        <div class="avatar-group">
+          <div class="avatar avatar-sm">A</div>
+          <div class="avatar avatar-sm avatar-green">B</div>
+          <div class="avatar avatar-sm avatar-purple">C</div>
+          <div class="avatar avatar-sm avatar-orange">+5</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">OpenUI<span>Kit</span></div>
+      <p>Open source forever. MIT Licensed. Built for developers, by developers.</p>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="docs/CONTRIBUTING.md">Contributing</a>
+        <a href="LICENSE">License</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/openui.js"></script>
+</body>
+</html>
